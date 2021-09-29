@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
     templateUrl: "./cadastrar.component.html",
     styleUrls: ["./cadastrar.component.css"],
 })
-export class PessoaComponent implements OnInit {
+export class CadastrarComponent implements OnInit {
     constructor() {}
 
     ngOnInit(): void {}
