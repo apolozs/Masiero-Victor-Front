@@ -5,6 +5,7 @@ import { routing } from './app.routing';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListarComponent } from './Pages/Listar/listar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ListarComponent } from './Pages/Listar/listar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     routing
   ],
   providers: [],

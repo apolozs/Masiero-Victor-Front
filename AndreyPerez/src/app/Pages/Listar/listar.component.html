@@ -1,1 +1,11 @@
-<p>Listar</p>
+
+<a routerLink="/Cadastrar" class="myButton">Cadastrar</a>
+<div class="card" *ngFor="let pessoa of pessoas">
+<li>
+    <ul>{{pessoa.nome}}</ul>
+    <ul>{{pessoa.profissao}}</ul>
+    <ul>{{pessoa.gostoMusical}}</ul>
+    <ul>{{pessoa.genero}}</ul>
+    <br>
+</li>
+</div>
