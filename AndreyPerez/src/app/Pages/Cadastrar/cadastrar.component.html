@@ -1,1 +1,12 @@
-<h1>Cadastrar</h1>
+
+    <label for="fname">Nome</label>
+    <input type="text" id="nome" name="nome" [(ngModel)]="pessoa.nome"><br><br>
+    <label for="profissao">Profissão</label>
+    <input type="text" id="profissao" name="profissao" [(ngModel)]="pessoa.profissao"><br><br>
+    <label for="gostoMusica">Gosto musica</label>
+    <input type="text" id="gostoMusica" name="gostoMusica" [(ngModel)]="pessoa.gostoMusical"><br><br>
+    <label for="genero">Genero</label>
+    <input type="text" id="genero" name="genero" [(ngModel)]="pessoa.genero"><br><br>
+    <button type="submit"(click)="criar()">Criar Pessoa</button>
+    
+  
