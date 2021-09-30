@@ -1,11 +1,24 @@
-
 <a routerLink="/Cadastrar" class="myButton">Cadastrar</a>
-<div class="card" *ngFor="let pessoa of pessoas">
-<li>
-    <ul>{{pessoa.nome}}</ul>
-    <ul>{{pessoa.profissao}}</ul>
-    <ul>{{pessoa.gostoMusical}}</ul>
-    <ul>{{pessoa.genero}}</ul>
-    <br>
-</li>
-</div>
+
+<table border="1">
+    
+    <div style="overflow-x:auto;" class="card" *ngFor="let pessoa of pessoas">
+        <tr>
+            <th>Nome</th>
+            <th>Profissão</th>
+            <th>Gosto Musical</th>
+            <th> Genero</th>
+          </tr>
+          <tr>
+          
+            <td>{{pessoa.nome}}</td>
+            <td>{{pessoa.profissao}}</td>
+            <td>{{pessoa.gostoMusical}}</td>
+            <td>{{pessoa.genero}}</td>
+          </tr>
+          </div>
+       
+       
+   
+</table>
+
